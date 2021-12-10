@@ -4,5 +4,4 @@ cd cpuminer-multi
 sudo ./autogen.sh
 sudo ./configure
 sudo ./build.sh
-YourEmail=read varname
-./cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u $varname
+./cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u youremail
